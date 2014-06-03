@@ -10,10 +10,13 @@ public class Tutorial {
     private static final Logger logger = LoggerFactory.getLogger(Tutorial.class);
 
     public static void main(String[] args) {
-        logger.trace("trace");
-        logger.debug("debug");
-        logger.info("info");
-        logger.warn("warn");
-        logger.error("error");
+        for (int i = 0; i < 1000; i++) {
+
+            logger.trace("trace");
+            logger.debug("debug");
+            logger.info("info");
+            logger.warn("warn");
+            logger.error("error");
+        }
     }
 }
